@@ -10,12 +10,13 @@
     "hello-js": "node myScript.js",
     "hello-bash": "bash myScript.sh",
     "tut": "bash ./tuts/tut.sh",
-    "pretut": "bash pretut.sh"
+    "pretut": "node pretut.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^2.4.2"
+    "chalk": "^2.4.2",
+    "dos2unix": "1.1.2"
   },
   "devDependencies": {
     "webpack": "^4.35.0"

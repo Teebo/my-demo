@@ -1,0 +1,24 @@
+{
+  "name": "my-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "say-hello": "echo 'Hola hola'",
+    "awesome-npm": "npm run say-hello && echo 'NPM is awesome!'",
+    "hello-js": "node myScript.js",
+    "hello-bash": "bash myScript.sh",
+    "tut": "bash ./tuts/tut.sh",
+    "pretut": "bash pretut.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2"
+  },
+  "devDependencies": {
+    "webpack": "^4.35.0"
+  },
+  "peerDependencies": {}
+}

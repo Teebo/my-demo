@@ -10,7 +10,8 @@
     "hello-js": "node myScript.js",
     "hello-bash": "bash myScript.sh",
     "tut": "bash ./tuts/tut.sh",
-    "pretut": "node pretut.js"
+    "pretut": "node pretut.js",
+    "pretutjs": "bash pretut.sh"
   },
   "author": "",
   "license": "ISC",

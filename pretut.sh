@@ -1,3 +1,4 @@
-echo $process.argv
+node
+echo
 
-dos2unix ./tuts/tut.sh
+# dos2unix ./tuts/tut.sh
